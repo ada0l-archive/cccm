@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cccm"
+version = "0.1.0"
+description = ""
+authors = ["ada0l"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.0"
+opencv-python = "^4.7.0.72"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
